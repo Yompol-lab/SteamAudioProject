@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6C65DB05-5122-4802-8806-4724614FC6F5}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6C65DB05-5122-4802-8806-4724614FC6F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Dublin" ID="{EEB73EB2-DD05-48B2-8F47-64091AA0E519}">
+					<ChildrenList>
+						<Action Name="" ID="{345D0F6E-90B5-494A-AF12-A0A3C8F5D31D}" ShortID="250099139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RockyRoadToDublin" ID="{090CBD19-BB7F-4368-9589-C9D520B43A15}" WorkUnitID="{81FC9D62-D715-49E4-8707-16C05238A3FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LiedToYou" ID="{F00E0863-68D3-4740-85BE-166E58B3B96A}">
+					<ChildrenList>
+						<Action Name="" ID="{3A5AA2E5-8395-4865-A94B-4C7EFF551F6C}" ShortID="206384344">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LiedToYou" ID="{B0C82724-AEF9-4E72-B552-2587312BCE6A}" WorkUnitID="{81FC9D62-D715-49E4-8707-16C05238A3FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

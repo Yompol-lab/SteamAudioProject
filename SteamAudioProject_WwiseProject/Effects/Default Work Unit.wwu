@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}" SchemaVersion="123">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="EspacializadorSteamAudio" ID="{0744A22E-85B0-4D04-A14D-C9896DC65787}" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3">
+					<PropertyList>
+						<Property Name="DipolePower" Type="Real32" Value="1"/>
+						<Property Name="DistanceAttenuation" Type="bool" Value="True"/>
+						<Property Name="Occlusion" Type="int16" Value="1"/>
+						<Property Name="Transmission" Type="int16" Value="1"/>
+						<Property Name="TransmissionType" Type="int16" Value="1"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

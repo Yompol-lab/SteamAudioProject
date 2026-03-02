@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{81FC9D62-D715-49E4-8707-16C05238A3FD}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{81FC9D62-D715-49E4-8707-16C05238A3FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="RockyRoadToDublin" ID="{090CBD19-BB7F-4368-9589-C9D520B43A15}" ShortID="906867822">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Atenuacion_Paredes" ID="{14C95B65-A317-4DEA-A7F4-51CC2CE624D8}" WorkUnitID="{B64BB15F-16C6-4018-BE13-45FB5721D949}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D8963C-6D12-4988-AEA7-E7C310F627D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3DC69A4C-A564-4D00-8579-4161D35615E4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RockyRoadToDublin" ID="{D1250FCC-DC10-4E0C-915A-61F106BA9D4B}">
+							<Language>SFX</Language>
+							<AudioFile>RockyRoadToDublin.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="668877202"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{2B246823-9CCE-43C1-AF9C-CADDD433F524}" ShortID="904084088">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3">
+												<ObjectRef Name="EspacializadorSteamAudio" ID="{0744A22E-85B0-4D04-A14D-C9896DC65787}" WorkUnitID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="RockyRoadToDublin" ID="{D1250FCC-DC10-4E0C-915A-61F106BA9D4B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LiedToYou" ID="{B0C82724-AEF9-4E72-B552-2587312BCE6A}" ShortID="438305037">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Atenuacion_Paredes" ID="{14C95B65-A317-4DEA-A7F4-51CC2CE624D8}" WorkUnitID="{B64BB15F-16C6-4018-BE13-45FB5721D949}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D8963C-6D12-4988-AEA7-E7C310F627D4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3DC69A4C-A564-4D00-8579-4161D35615E4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LiedToYou" ID="{AEE9497C-76B0-435B-BFC9-ED5185C17177}">
+							<Language>SFX</Language>
+							<AudioFile>LiedToYou.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="150242469"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{73D683AB-1421-4868-8C3A-39B73916B00C}"/>
+					</PositioningInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{B2FE0B41-E3BD-46D1-8821-2DAD21432F83}" ShortID="296430866">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3">
+												<ObjectRef Name="EspacializadorSteamAudio" ID="{0744A22E-85B0-4D04-A14D-C9896DC65787}" WorkUnitID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="LiedToYou" ID="{AEE9497C-76B0-435B-BFC9-ED5185C17177}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

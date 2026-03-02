@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "SteamAudioProject_WwiseProject",
+   "GUID": "{D742DAA9-3751-428E-805B-555267544A39}",
+   "Generator": "2024.1.11.9010"
+  },
+  "CacheRoot": "../../../../SteamAudioProject_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{0450AB7B-B774-4C21-B047-7120E257606D}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../SteamAudioProject_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{A32BC16D-0290-4C1A-98B9-9A6564860412}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../SteamAudioProject_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{7E5B3D06-A1B5-4937-A451-521D7E8C0F9D}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{450E9C7C-1B4F-D20D-4CBA-97F3CD5E71FB}"
+ }
+}

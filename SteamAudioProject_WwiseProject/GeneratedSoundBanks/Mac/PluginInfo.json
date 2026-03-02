@@ -1,0 +1,26 @@
+{
+ "PluginInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "PluginLibs": [
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Steam Audio Spatializer",
+    "LibId": "1987253171",
+    "Type": "Effect",
+    "DLL": "SteamAudioWwise",
+    "StaticLib": "SteamAudioWwiseFX"
+   }
+  ],
+  "FileHash": "{AE85A16E-E3A5-9E8E-DBB8-18351D12AEF6}"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1661994096",
+    "Type": "User",
+    "GUID": "{450081D5-FADD-4C12-828C-5BF960667D26}",
+    "Language": "SFX",
+    "Hash": "{EE2DFC01-9C6D-4D67-CAC8-A4EA16DD10B0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
+    "ShortName": "SoundBank",
+    "Path": "SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "150242469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LiedToYou.wav",
+      "CachePath": "46/{466C1F2B-CAAB-DC4D-CF49-E245859AD8AE}.wem"
+     },
+     {
+      "Id": "668877202",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RockyRoadToDublin.wav",
+      "CachePath": "CD/{CD83A4D1-A01E-03C7-9913-2D9109EB378F}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2781974652",
+       "Name": "EspacializadorSteamAudio",
+       "ObjectPath": "\\Effects\\Default Work Unit\\EspacializadorSteamAudio",
+       "GUID": "{0744A22E-85B0-4D04-A14D-C9896DC65787}",
+       "LibName": "Steam Audio Spatializer",
+       "LibId": "1987253171"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1438408468",
+      "Name": "Play_Dublin",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Dublin",
+      "GUID": "{EEB73EB2-DD05-48B2-8F47-64091AA0E519}",
+      "MaxAttenuation": "70",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "668877202"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2781974652"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4015557428",
+      "Name": "Play_LiedToYou",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_LiedToYou",
+      "GUID": "{F00E0863-68D3-4740-85BE-166E58B3B96A}",
+      "MaxAttenuation": "70",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "150242469"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2781974652"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{73069CCF-DBD5-F991-FC67-AAFAC6AE7594}"
+ }
+}

@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1438408468	Play_Dublin			\Default Work Unit\Play_Dublin	
+	4015557428	Play_LiedToYou			\Default Work Unit\Play_LiedToYou	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2781974652	EspacializadorSteamAudio	Steam Audio Spatializer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	150242469	LiedToYou	E:\Unity\SteamAudioProject\SteamAudioProject_WwiseProject\.cache\46\{466C1F2B-CAAB-DC4D-CF49-E245859AD8AE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\LiedToYou		56120696
+	668877202	RockyRoadToDublin	E:\Unity\SteamAudioProject\SteamAudioProject_WwiseProject\.cache\CD\{CD83A4D1-A01E-03C7-9913-2D9109EB378F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\RockyRoadToDublin		39355640
+

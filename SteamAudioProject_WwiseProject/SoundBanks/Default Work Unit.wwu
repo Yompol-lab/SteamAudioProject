@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB43E5CC-AEE6-40DC-9903-D209BBE5E4B4}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{CB43E5CC-AEE6-40DC-9903-D209BBE5E4B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBank" ID="{450081D5-FADD-4C12-828C-5BF960667D26}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_LiedToYou" ID="{F00E0863-68D3-4740-85BE-166E58B3B96A}" WorkUnitID="{6C65DB05-5122-4802-8806-4724614FC6F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dublin" ID="{EEB73EB2-DD05-48B2-8F47-64091AA0E519}" WorkUnitID="{6C65DB05-5122-4802-8806-4724614FC6F5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
