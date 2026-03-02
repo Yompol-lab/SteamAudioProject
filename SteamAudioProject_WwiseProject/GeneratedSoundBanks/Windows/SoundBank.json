@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{450081D5-FADD-4C12-828C-5BF960667D26}",
     "Language": "SFX",
-    "Hash": "{EE2DFC01-9C6D-4D67-CAC8-A4EA16DD10B0}",
+    "Hash": "{D0B65C1F-DA6F-192C-ECFA-A4072660B3FF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
     "ShortName": "SoundBank",
     "Path": "SoundBank.bnk",
@@ -35,10 +35,10 @@
     "Plugins": {
      "ShareSets": [
       {
-       "Id": "2781974652",
-       "Name": "EspacializadorSteamAudio",
-       "ObjectPath": "\\Effects\\Default Work Unit\\EspacializadorSteamAudio",
-       "GUID": "{0744A22E-85B0-4D04-A14D-C9896DC65787}",
+       "Id": "2421516982",
+       "Name": "New_Steam_Audio_Spatializer",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Steam_Audio_Spatializer",
+       "GUID": "{707D1B54-FF68-4766-85FD-8EA9084FA98C}",
        "LibName": "Steam Audio Spatializer",
        "LibId": "1987253171"
       }
@@ -60,7 +60,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "2781974652"
+         "Id": "2421516982"
         }
        ]
       }
@@ -80,7 +80,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "2781974652"
+         "Id": "2421516982"
         }
        ]
       }
@@ -88,6 +88,6 @@
     ]
    }
   ],
-  "FileHash": "{73069CCF-DBD5-F991-FC67-AAFAC6AE7594}"
+  "FileHash": "{96B52802-8E03-3E6C-6E88-F1018E515F8F}"
  }
 }

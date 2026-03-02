@@ -38,10 +38,10 @@
 						<ObjectList Name="Effects">
 							<Reference>
 								<Local>
-									<EffectSlot Name="" ID="{2B246823-9CCE-43C1-AF9C-CADDD433F524}" ShortID="904084088">
+									<EffectSlot Name="" ID="{6E931764-F195-448B-8844-6440856A5D83}" ShortID="334813442">
 										<ReferenceList>
 											<Reference Name="Effect" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3">
-												<ObjectRef Name="EspacializadorSteamAudio" ID="{0744A22E-85B0-4D04-A14D-C9896DC65787}" WorkUnitID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}"/>
+												<ObjectRef Name="New_Steam_Audio_Spatializer" ID="{707D1B54-FF68-4766-85FD-8EA9084FA98C}" WorkUnitID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}"/>
 											</Reference>
 										</ReferenceList>
 									</EffectSlot>
@@ -55,7 +55,6 @@
 				</Sound>
 				<Sound Name="LiedToYou" ID="{B0C82724-AEF9-4E72-B552-2587312BCE6A}" ShortID="438305037">
 					<PropertyList>
-						<Property Name="3DPosition" Type="int16" Value="1"/>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -95,7 +94,7 @@
 									<EffectSlot Name="" ID="{B2FE0B41-E3BD-46D1-8821-2DAD21432F83}" ShortID="296430866">
 										<ReferenceList>
 											<Reference Name="Effect" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3">
-												<ObjectRef Name="EspacializadorSteamAudio" ID="{0744A22E-85B0-4D04-A14D-C9896DC65787}" WorkUnitID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}"/>
+												<ObjectRef Name="New_Steam_Audio_Spatializer" ID="{707D1B54-FF68-4766-85FD-8EA9084FA98C}" WorkUnitID="{9ECCE2DF-D07D-40B9-A0C1-69B101CD255E}"/>
 											</Reference>
 										</ReferenceList>
 									</EffectSlot>
